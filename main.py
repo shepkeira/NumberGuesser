@@ -34,16 +34,16 @@ def guess_number():
             print("Too high guess again")
 
 
-print("Do you want to guess a number or pick a number for me to guess?")
+#print("Do you want to guess a number or pick a number for me to guess?")
 
-while True:
-    print("A - Guess a number")
-    print("B - Pick a number")
-    choice = input("What would you like to do? ")
-
-    if choice == "A":
-        guess_number()
-    elif choice == "B":
-        pick_number()
-    else:
-        print("That is not an option try again")
+# while True:
+#     print("A - Guess a number")
+#     print("B - Pick a number")
+#     choice = input("What would you like to do? ")
+#
+#     if choice == "A":
+#         guess_number()
+#     elif choice == "B":
+#         pick_number()
+#     else:
+#         print("That is not an option try again")
